@@ -1,6 +1,7 @@
 #!/bin/bash
-curl -L https://git.io/v7kPb | bash
-npm init -y
-npm install express
+sudo apt update
+sudo apt install python3 idle3
 touch database
+pip install -r requirements.txt
 echo 0 >> database
+
